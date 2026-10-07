@@ -1,0 +1,16 @@
+button,
+[role="button"],
+a,
+summary,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+label[for],
+select {
+  cursor: pointer;
+}
+
+button:disabled,
+[aria-disabled="true"] {
+  cursor: not-allowed;
+}
